@@ -1,9 +1,9 @@
-![Logo](/images/pf.png)
 
 
-# Amine Portfolio Showcase 💻
 
-Welcome to **Amine's Portfolio Showcase**!  
+# Priyadharshini Portfolio Showcase 💻
+
+Welcome to **Priya's Portfolio Showcase**!  
 This project is a modern **portfolio website** to display projects, skills, and work samples using **HTML, CSS, and JavaScript**.  
 It is fully **responsive**, interactive, and designed to highlight your projects with videos, animations, and smooth navigation.
 
@@ -32,10 +32,4 @@ It is fully **responsive**, interactive, and designed to highlight your projects
 
 ---
 
-## 🛠 How to Use / Customize
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/Saboo24/portfolio-showcase.git
 
