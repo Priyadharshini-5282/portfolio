@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyadharshini</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Priyadharshini<span class="logo-s"></span></h1>
+      <nav class="nav-list">
+        <ul class="ul-list">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+
+        </ul>
+      </nav>
+      <div class="box-icons">
+        <p><a href="https://wa.me/916369748087" target="_blank"><i class='bx bxl-whatsapp'></i></a></p>
+        <p><a href="https://github.com/Priyadharshini-5282" target="_blank"><i class='bx bxl-github'></i></a></p>
+        <p><a href="https://www.linkedin.com/in/priyadharshini-t-a4a796301" target="_blank"><i
+              class='bx bxl-linkedin-square'></i></a></p>
+      </div>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="container-home">
+      <img class="avatar" src="images/img.jpeg" alt="avatar">
+      <div class="text-home">
+        <h4>Hi I'm Priyadharshini 👾</h4>
+        <h2>Full Stack Developer</h2>
+
+        <p class="p-home">I'm Priyadharshini, a passionate Software Developer who enjoys understanding <br> how systems
+          work — from low-level logic circuits to high-level applications.</p>
+      </div>
+      <div class="butn-hom">
+        <button class="btn btn-home1"
+          onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Contact me</button>
+        <button class="btn btn-home2"
+          onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'});">My work</button>
+        <a href="assets/Priyadharshini_Resume1.docx" download>
+          <button>Download Resume</button>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ABOUT SECTION -->
+  <section class="info-section" id="about">
+    <h1 class="section-title">Hello, There 👋</h1>
+
+    <!-- Top Name Card -->
+    <div class="info-cards single-card">
+      <div class="card name-card">
+        <h1>Hi there, I'm Priyadharshini</h1>
+        <p>
+          A passionate developer skilled in building modern, dynamic, and responsive web solutions.
+        </p>
+        <img src="images/grid1.jpg" alt="Profile">
+      </div>
+    </div>
+
+    <!-- 3 Tech Stack Cards -->
+    <div class="info-cards">
+      <div class="card">
+        <h1>Frontend Development</h1>
+        <p>HTML, CSS, JavaScript, React</p>
+        <img src="images/frontend.png" alt="Frontend">
+      </div>
+
+      <div class="card">
+        <h1>Backend Development</h1>
+        <p>Node.js, Express.js, Python</p>
+        <img src="images/backend.png" alt="Backend">
+      </div>
+
+      <div class="card">
+        <h1>Database</h1>
+        <p>MongoDB, MySQL</p>
+        <img src="images/database.png" alt="Database">
+      </div>
+    </div>
+  </section>
+
+  <section class="my-project" id="projects">
+    <h1 class="section-title">My Projects 👨‍💻</h1>
+
+    <div class="project-card">
+      <div class="project-vidbox">
+        <video loop muted src="video/project1.mp4"></video>
+        <div class="hover-sign"></div>
+      </div>
+      <div class="project-info">
+        <h1>E-commerce <span class="gradient">Website</span></h1>
+        <p>A modern, responsive e-commerce website built with React — featuring smooth navigation, real-time cart
+          updates, and an engaging shopping experience.</p>
+        <a href="https://e-commerce-application-lilac.vercel.app" target="_blank">
+          <button><i class='bx bx-link-external'></i> Website</button>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-vidbox">
+        <video loop muted src="video/project2.mp4"></video>
+        <div class="hover-sign"></div>
+      </div>
+      <div class="project-info">
+        <h1>Micro <span class="gradient">Blog</span> Website</h1>
+        <p>A microblog website project showcases your skills in building interactive, real-time social platforms using modern web technologies.</p>
+        <a href="https://blog-app-bay-two-56.vercel.app" target="_blank">
+          <button><i class='bx bx-link-external'></i> Website</button>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-vidbox">
+        <video loop muted src="video/project3.mp4"></video>
+        <div class="hover-sign"></div>
+      </div>
+      <div class="project-info">
+        <h1>TODO <span class="gradient">Portfolio</span> Website</h1>
+        <p>A clean and interactive blog website built with React — helping users stay organized with real-time post updates and a modern UI.</p>
+        <a href="C:\Users\sss\Desktop\project\portfolio-showcase-main\index.html" target="_blank">
+          <button><i class='bx bx-link-external'></i> Website</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-vidbox">
+        <video loop muted src="video/project4.mp4"></video>
+        <div class="hover-sign"></div>
+      </div>
+      <div class="project-info">
+        <h1>AI <span class="gradient">Virtual</span> Assistant</h1>
+        <p>An AI-powered virtual assistant that helps users manage tasks, answer questions, and provide personalized
+          recommendations.</p>
+        <button><i class='bx bx-link-external'></i> Website</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact-section" id="contact">
+    <h1 class="section-title">Get in Touch 💬</h1>
+    <p class="contact-subtext">
+      I’d love to hear from you! Whether you have a project idea, want to collaborate,
+      or just say hello — feel free to reach out.
+    </p>
+
+    <form id="contactForm" class="contact-form">
+      <input type="text" name="from_name" placeholder="Your Name" required>
+      <input type="email" name="from_email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+
+    <div class="social-links">
+      <a href="https://wa.me/91XXXXXXXXXX" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+      <a href="https://github.com/YourGitHubUsername" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><i
+          class='bx bxl-linkedin-square'></i></a>
+    </div>
+  </section>
+
+
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-container">
+      <h2 class="footer-logo">Priyadharshini</h2>
+
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+      </div>
+
+      <div class="footer-socials">
+        <p><i class='bx bxl-youtube'></i></p>
+        <p><i class='bx bxl-github'></i></p>
+        <p><i class='bx bxl-linkedin-square'></i></p>
+      </div>
+
+      <p class="footer-copy">@ 2025 Priyadharshini | All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
